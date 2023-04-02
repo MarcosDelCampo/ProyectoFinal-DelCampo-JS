@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>ENTRENARTE</title>
+</head>
+<body id="body">
+    <header class="header">
+            <h1>ENTR<strong>EN<strong>ARTE</strong></strong></h1>
+            <h4>Actuá en Buenos Aires</h4>
+    </header>
+    <section class="opciones">
+        <h2>FILTRAR OPCIONES</h2>
+        <div class="opcion">
+            <h3>LUGAR</h3>
+            <ul id="lugar"></ul>
+        </div>
+        <div class="opcion">
+            <h3>ZONA</h3>
+            <ul id="zona"></ul>
+        </div>
+        <div class="opcion">
+            <h3>CATEGORIA</h3>
+            <ul id="categoria"></ul>
+        </div>
+        <div class="opcion">
+            <h3>EDAD</h3>
+            <ul id="edad"></ul>
+        </div>
+        <div class="opcion">
+            <h3>FORMATO</h3>
+            <ul id="formato"></ul>
+        </div>
+        <div class="opcion">
+            <h3>TURNO</h3>
+            <ul id="turno"></ul>
+        </div>
+        <div class="opcion">
+            <h3>DIA</h3>
+            <ul id="dia"></ul>
+        </div>
+        <div class="opcion">
+            <h3>VALOR</h3>
+            <ul id="valor"></ul>
+        </div>
+        <div class="opcion">
+            <h3>NIVEL</h3>
+            <ul id="nivel"></ul>
+        </div>
+    </section>
+    <div id="tagFiltros" class="contenedorFiltrosActuales hidden">
+        <h3>FILTROS ACTUALES</h3>
+        <ul id="filtroVisible" class="elecciones">
+        </ul>
+        <button id="btnResetearTodo" onclick="resetearTodo()">BORRAR FILTROS</button>
+    </div>
+    <section class="respuestas">
+        <h2>RESPUESTAS</h2>
+        <div id="contenedorResultados"></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

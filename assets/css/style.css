@@ -1,0 +1,215 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(30, 30, 30);
+    color: white; }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header{
+        background-color: rgb(30, 30, 30);
+        color: white;
+        text-align: center;
+        text-justify: center;
+        margin: 20px;
+        height: 7vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 > strong {
+        color: rgb(255, 223, 142);
+    }
+    
+    h1 > strong > strong {
+        color: rgb(255, 193, 36);
+    }
+    
+    .respuestas {
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(255, 223, 142);
+        width: 90vw;
+        overflow: hidden;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contenedorResultados {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+        
+    .cards {
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(255, 223, 142);
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+        text-align: center;
+    
+    }
+    
+    .cards > h3 {
+        margin: 10px;
+        color: white;
+    }
+    
+    .cards > p {
+        padding: 3px;
+        color: rgb(255, 193, 36);
+    }
+    
+    
+    .opciones {
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(255, 193, 36);
+        width: 90vw;
+        overflow: hidden;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h2 {
+        width: 100%;
+        margin: 10px 0px 20px 0px;
+    }
+    .opcion {
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(255, 193, 36);
+        width: 18%;
+        height: 280px;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .opcion > h3{
+        color: rgb(255, 223, 142);
+        margin: 5px
+    }
+    
+    ul{
+    text-decoration: none;
+    text-decoration-style: none;
+    
+    }
+    
+    .opcion ul :hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 30, 30);
+    }
+
+    .opcion ul button{
+        border-radius: 5px;
+        border-color: transparent;
+        cursor: pointer;
+        width: 90%;
+
+    }
+    
+    button{
+
+        border: none;
+    }
+
+    .contenedorFiltrosActuales{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorFiltrosActuales li {
+        background-color: white;
+        border-radius: 3px;
+        color: black;
+        text-align: center;
+        padding: 2px;
+    }
+    
+    #btnResetearTodo{
+        background-color: rgb(180, 30, 0);
+        color: rgb(255, 177, 177);
+        text-decoration: solid;
+        width: 99%;
+        padding: 10px 5px;
+        border-radius: 3px;
+        font-size: medium;
+        cursor: pointer;
+    }
+
+    .elecciones{
+        margin: 10px;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: rgb(255, 223, 142);
+        width: 90vw;
+        overflow: hidden;
+        text-align: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .elecciones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        list-style: none;
+    }
+
+    .elecciones > li  {
+        text-decoration: none;
+        text-decoration-style: none;
+        margin: 3px;
+        padding: 3px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+
+    .swal2-x-mark{
+
+        background-color: transparent !important;
+    }
+
+    .swal2-title, .swal2-icon, #swal2-html-container, .swal2-actions {
+
+        background-color: white !important;
+    }
+
+
+    
